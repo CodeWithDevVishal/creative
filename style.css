@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar0 important {
+    background-color: #fff;
+    color: #6c757d;
+    font-size: 0.8;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("./image/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.685); */
+    font-family: serif;
+}
+
+#hero div{
+    background-color: rgba(255, 255, 255, 0.185);
+    background-size: cover;
+}
+
+#hero_demo{
+    background-color: rgba(0, 0, 0, 0.281);
+    background-position: center;
+    background-size: cover;
+}
+
+.textwhite0 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 35rem;
+}
+
+.orangeline {
+    color: #f4623a;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* width: 35rem; */
+}
+
+
+.paregraph {
+    width: 40rem;
+    color: #d8d7d7;
+    /* font-size: 1.4rem; */
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.orange_button{
+    background-color: #f4623a;
+    color: white;
+    /* border-radius: 1rem; */
+}
+
+.orange_button:hover{
+    background-color: rgb(146, 43, 6);
+    color: white;
+}
+
+/* <!-- ebd of hero section --> */
+/* <!-- ................................... --> */
+ /* <!-- start of About section --> */
+
+#About{
+    background-color: #f4623a;
+    height: 80vh;
+}
+
+.Whiteline {
+    color: white ;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 35rem;
+}
+
+.White_button{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    /* border-radius: 1rem; */
+}
+
+.White_button:hover{
+    background-color: #484848;
+    color: black;
+}
+
+/* 
+<!-- end of About section -->
+<!-- ................................... -->
+ <!-- start of servies section --> */
+
+ #Services{
+    height: 80vh;
+ }
+
+ /* end of servies section  */
+ /* ................................... */
+ /* start of Portfolio section */
+
+ #Portfolio{
+    /* height: 100vh; */
+ }
+ /* #Portfolio img{
+    width:50rem;
+    height: 6rem;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+ } */
+
+ .Portfolio-1{
+    background-image: url("./image/Portfolio-1.png");
+    background-size: cover;
+    background-position: center;
+
+ }
+
+ .Portfolio-2{
+    background-image: url("./image/Portfolio-2.jpg");
+    background-size: cover;
+    background-position: center;
+
+ }
+
+ .Portfolio-3{
+    background-image: url("./image/Portfolio-3.jpg");
+    background-size: cover;
+    background-position: center;
+  
+ }
+
+ .Portfolio-4{
+    background-image: url("./image/Portfolio-4.jpg");
+    background-size: cover;
+    background-position: center;
+    
+ }
+
+ .Portfolio-5{
+    background-image: url("./image/Portfolio-5.jpg");
+    background-size: cover;
+    background-position: center;
+    
+ }
+
+ .Portfolio-6{
+    background-image: url("./image/Portfolio-6.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Portfolio_hover{
+    /* background-color: #f4623a; */
+    color: #ffffff00;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Portfolio_hover:hover{
+    background-color: #f4623ac2;
+    color: #ffffff;
+    hi
+}
+
+@media screen and (max-width:324px){
+
+    #hero_c{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #hero h1{
+        font-size: 2rem !important;
+        width: 80% !important;
+    }
+
+    .paregraph_c{
+        width: 95% !important;
+        /* font-weight: 100; */
+    }
+
+    /* about */
+
+    #About{
+        height: 100vh;
+    }
+
+    .textwhite0{
+        font-size: 1.4rem !important;
+        /* font-weight: 600; */
+        width: 95% !important;
+    }
+
+
+    .Whiteline{
+        font-size: 1rem !important;
+        width: 100% !important;
+    }
+
+    .paregraph {
+        width: 85% !important;
+        font-weight: 600 !important;
+    }
+
+    /* services */
+
+    #Services{
+        height: 100vh !important;
+        /* padding: 5rem; */
+    }
+
+    .orangeline {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
